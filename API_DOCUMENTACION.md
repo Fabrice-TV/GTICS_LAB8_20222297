@@ -15,7 +15,7 @@ Contenido: descripción de los endpoints expuestos por el servicio REST.
 
 ### 1) Listar productos
 - Método: GET
-- URL: `/product`
+- URL: `localhost:8080/product`
 - Descripción: Devuelve la lista completa de productos.
 
 Entrada:
@@ -55,7 +55,7 @@ Códigos HTTP posibles:
 
 ### 2) Obtener producto por ID
 - Método: GET
-- URL: `/product/{id}`
+- URL: `localhost:8080/product/{id}`
 - Descripción: Devuelve el producto con el ID especificado.
 
 Entrada:
@@ -94,7 +94,7 @@ o
 
 ### 3) Crear un producto
 - Método: POST
-- URL: `/product`
+- URL: `localhost:8080/product`
 - Descripción: Crea un nuevo producto en la base de datos.
 
 Entrada (body JSON): objeto `Producto` (los campos que no se envíen se dejarán null si la BD lo permite).
@@ -141,7 +141,7 @@ Salida:
 
 ### 4) Actualizar producto 
 - Método: PUT
-- URL: `/product`
+- URL: `localhost:8080/product`
 - Descripción: Actualiza parcialmente un producto, con los campos especificados. En esta implementación el `productoId` se envía en el body y el servidor actualiza solo los campos que no son `null` en el objeto recibido.
 
 Entrada (body JSON): objeto `Producto` con `productoId` obligatorio y los campos a actualizar (campos no enviados o `null` no se modifican).
@@ -191,7 +191,7 @@ Observaciones:
 
 ### 5) Eliminar producto
 - Método: DELETE
-- URL: `/product/{id}`
+- URL: `localhost:8080/product/{id}`
 - Descripción: Elimina el producto por ID junto con todas sus referencias en pedidos.
 
 **ADVERTENCIA IMPORTANTE**: Este endpoint elimina en cascada:
