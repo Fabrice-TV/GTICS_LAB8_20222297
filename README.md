@@ -9,6 +9,7 @@ Base de datos:
 
 Contenido: descripción de los endpoints expuestos por el servicio REST.
 Nota: El documento API_DOCUMENTACION.pdf contiene capturas de pantalla con más detalles relacionados a cada punto indicado (Capturas de pantalla en Postman).  
+
 ---
 
 ## Endpoints
@@ -272,4 +273,5 @@ En resumen:
 - Para poder eliminar el producto desde la API sin cambiar la estructura de la BD , el controlador borra primero las filas hijas y luego la fila padre dentro de la misma transacción.
 
 ---
+
 
