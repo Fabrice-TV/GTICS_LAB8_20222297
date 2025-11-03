@@ -60,7 +60,8 @@ El proyecto está configurado para conectarse a una base de datos MySQL remota:
   
 - **ClienteWeb_20222297**: Cliente web que consume la API
   - Puerto: 8081
-  - Interfaz web para visualizar y gestionar productos
+  - Interfaz web para visualizar y buscar productos
+
 
 
 
