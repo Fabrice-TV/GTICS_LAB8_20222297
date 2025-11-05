@@ -44,7 +44,7 @@ El proyecto está configurado para conectarse a una base de datos MySQL remota:
 
 - **URL**: `jdbc:mysql://lewisrp.dev:3306/Northwind`
 - **Usuario**: `root`
-- **Contraseña**: `root`
+- **Contraseña**: `4s@wo19.+[xTrUnk@}9`
 - **Base de datos**: Northwind (tabla `Products`)
 
 **Nota**: No es necesario configurar una base de datos local. La conexión está pre-configurada en los archivos `application.properties` de cada proyecto.
@@ -61,6 +61,7 @@ El proyecto está configurado para conectarse a una base de datos MySQL remota:
 - **ClienteWeb_20222297**: Cliente web que consume la API
   - Puerto: 8081
   - Interfaz web para visualizar y buscar productos
+
 
 
 
